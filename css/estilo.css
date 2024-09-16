@@ -1,0 +1,4 @@
+img{ width: 100%; border-radius: 15px;}
+body{ background-color: rgb(222,232,241);}
+.oculta{display: none;}
+.exibe-linha{display: block;}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Mini Projeto </title>
+</head>
+<body>
+    <img src="img/imagem.jpg" alt="">
+    <h1>Veterinário JS</h1>
+
+    <form>
+        <p>Valor da Vacina
+            <input type="numero"
+            id="inValor">
+        </p>
+
+        <p>Possui Convênio
+            <input type="radio"
+             name="produto" id="rbSim"> Sim
+
+             <input type="radio"
+             name="produto" id="rbNao" checked> Não
+        </p>
+
+        <p class="oculta" id="pConvenio"
+         >Convênio:
+
+         <select id="selConvenio">
+            <option value="amigo">Amigo</option>
+            <option value="saude">Saúde Animal                
+            </option>
+         </select>
+        </p>
+
+        <input type="submit"
+         value="Calcular Desconto">
+
+    </form>
+
+    <h3 id="outDesconto">         </h3>
+    <h3 id="outPagar"></h3>
+<script src="js/script.js"></script>
+</body>
+</html>
